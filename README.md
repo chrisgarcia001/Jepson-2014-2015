@@ -41,9 +41,11 @@ number as input (presumably a similaity measure) and returns a weight.
 Here is a simple example of how to construct and run the algorithm:
 
 ```python
-from knn import *
+from knn import *  # Import the algorithm module
 
 op = KNNOptimizer() # Initialize algorithm
+
+# Get historic data from somewhere:
 historic_data = get_data() # data is of form [(user, interaction, response), ....]
 op.set_data_rows(historic_data) # Set data rows
 
@@ -53,13 +55,14 @@ op.set_similarity_f(my_similarity_func)
 # Build a simple weighting function which treats all neighbors equally:
 att_selector_f = build_weighted_mode_selector(lambda x: 1)
 
-# Get list of users to build interactions for:
+# Get list of users to build interactions for from somewhere:
 current_users = get_current_users()  
 
 k = 10 # Set number of nearest neighbors to use - many strategies for setting this.
 
 # Get the optimal interaction designs for each of the current users:
-interactions = map(lambda user: op.optimize(u, k, att_selector_f), current_users)
+interactions = map(lambda user: op.optimize(user, k, att_selector_f), current_users)
+...
 
 ```
 
