@@ -1,0 +1,11 @@
+num_trials, 20
+baseline_prob, 0.02
+user_attribute_spec', 5; 2; 5
+msg_attribute_spec, 5; 2; 5
+num_propensity_groups, 5
+minmax_user_propensity_attrs_involved, 2; 5
+minmax_msg_propensity_attrs_involved, 4; 5
+minmax_propensity_group_response_prob, 0.5; 0.85
+num_test_messages, 300
+num_users, 10000
+output_file, ../results/scen_p_m_p.txt
