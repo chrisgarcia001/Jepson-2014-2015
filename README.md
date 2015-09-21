@@ -1,6 +1,6 @@
 Jepson Research 2014-2015 @UMW
 ===============
-### A nearest-neighbor algorithm for response-maximizing interaction designs in social outreach campaigns
+### A Nearest-Neighbor Algorithm for Response-Maximizing Interaction Design in Social Outreach Campaigns
 
 This project contains some of the code developed as part of a Jepson Fellowship at UMW during the 2014-15 year.
 This research aimed to make social media outreach campaigns more effective through designing tailored interactions
@@ -63,3 +63,5 @@ interactions = map(lambda user: op.optimize(u, k, att_selector_f), current_users
 
 ```
 
+##### License
+This is licensed under the Apache License Version 2.0.
