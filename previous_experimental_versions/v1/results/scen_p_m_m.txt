@@ -1,0 +1,24 @@
+-------------------- RESULTS ------------------------
+Number of trials:  20
+solver_1 avg. k:  7.5
+solver_2 avg. k:  9.15
+control_1 avg. success %:  0.02224 , (min, max) success %:  (0.016, 0.028)
+control_2 avg. success %:  0.02082 , (min, max) success %:  (0.0156, 0.0436)
+control_3 avg. success %:  0.02128 , (min, max) success %:  (0.0168, 0.0492)
+solver_1 avg. success %:  0.02236 , (min, max) success %:  (0.0148, 0.0388)
+solver_2 avg. success %:  0.02182 , (min, max) success %:  (0.0152, 0.0324)
+solver_1 vs. control_1 (p-val):  0.808259968764
+solver_2 vs. control_1 (p-val):  0.926808718354
+solver_1 vs. control_2 (p-val):  0.249721189684
+solver_2 vs. control_2 (p-val):  0.462313066203
+solver_1 vs. control_3 (p-val):  0.432956062361
+solver_2 vs. control_3 (p-val):  0.659833149961
+solver_1 vs. solver_2 (p-val):  0.662420742971
+solver_2 vs. solver_1 (p-val):  0.943051967197
+Avg solver_1/ control_1 ratio:  1.38571428571
+Avg solver_1/ control_2 ratio:  0.889908256881
+Avg solver_1/ control_3 ratio:  0.788617886179
+Avg solver_2/ control_1 ratio:  1.15714285714
+Avg solver_2/ control_2 ratio:  0.743119266055
+Avg solver_2/ control_3 ratio:  0.658536585366
+-------------------- TOTAL ELAPSED TIME:  1566  sec.

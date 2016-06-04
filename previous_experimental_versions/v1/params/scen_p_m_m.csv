@@ -1,7 +1,7 @@
 num_trials,20
 baseline_prob,0.02
-user_attribute_spec, 10; 2; 5
-msg_attribute_spec, 10; 2; 5
+user_attribute_spec, 5; 2; 5
+msg_attribute_spec, 5; 2; 5
 num_propensity_groups,5
 minmax_user_propensity_attrs_involved, 2; 5
 minmax_msg_propensity_attrs_involved, 4; 5
