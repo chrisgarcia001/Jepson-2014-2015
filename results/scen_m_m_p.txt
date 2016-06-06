@@ -1,24 +1,24 @@
 -------------------- RESULTS ------------------------
 Number of trials:  20
-solver_1 avg. k:  8.75
-solver_2 avg. k:  8.0
-control_1 avg. success %:  0.0626 , (min, max) success %:  (0.0264, 0.1596)
-control_2 avg. success %:  0.05858 , (min, max) success %:  (0.0136, 0.228)
-control_3 avg. success %:  0.06034 , (min, max) success %:  (0.0216, 0.1416)
-solver_1 avg. success %:  0.1403 , (min, max) success %:  (0.0668, 0.3356)
-solver_2 avg. success %:  0.14118 , (min, max) success %:  (0.0616, 0.3164)
+solver_1 avg. k:  7.45
+solver_2 avg. k:  6.55
+control_1 avg. success %:  0.09058 , (min, max) success %:  (0.048, 0.1812)
+control_2 avg. success %:  0.08452 , (min, max) success %:  (0.0196, 0.2296)
+control_3 avg. success %:  0.07348 , (min, max) success %:  (0.0252, 0.1444)
+solver_1 avg. success %:  0.20334 , (min, max) success %:  (0.0932, 0.3964)
+solver_2 avg. success %:  0.20198 , (min, max) success %:  (0.0832, 0.3844)
 solver_1 vs. control_1 (p-val):  0.0
 solver_2 vs. control_1 (p-val):  0.0
 solver_1 vs. control_2 (p-val):  0.0
 solver_2 vs. control_2 (p-val):  0.0
 solver_1 vs. control_3 (p-val):  0.0
 solver_2 vs. control_3 (p-val):  0.0
-solver_1 vs. solver_2 (p-val):  0.919260160848
-solver_2 vs. solver_1 (p-val):  0.725709444264
-Avg solver_1/ control_1 ratio:  2.10275689223
-Avg solver_1/ control_2 ratio:  1.47192982456
-Avg solver_1/ control_3 ratio:  2.37005649718
-Avg solver_2/ control_1 ratio:  1.98245614035
-Avg solver_2/ control_2 ratio:  1.38771929825
-Avg solver_2/ control_3 ratio:  2.23446327684
--------------------- TOTAL ELAPSED TIME:  4307  sec.
+solver_1 vs. solver_2 (p-val):  0.67905634356
+solver_2 vs. solver_1 (p-val):  0.937600514679
+Avg solver_1/ control_1 ratio:  2.18763796909
+Avg solver_1/ control_2 ratio:  1.72648083624
+Avg solver_1/ control_3 ratio:  2.74515235457
+Avg solver_2/ control_1 ratio:  2.12141280353
+Avg solver_2/ control_2 ratio:  1.67421602787
+Avg solver_2/ control_3 ratio:  2.6620498615
+-------------------- TOTAL ELAPSED TIME:  6934  sec.
