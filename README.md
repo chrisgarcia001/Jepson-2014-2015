@@ -66,5 +66,10 @@ interactions = map(lambda user: op.optimize(user, k, att_selector_f), current_us
 
 ```
 
+#### Paper and Citation
+The full paper can be found [here](http://www.emeraldinsight.com/doi/abs/10.1108/K-09-2015-0236)
+If you wish to cite this work, please use the following reference:
+Christopher Garcia, "A nearest-neighbor algorithm for targeted interaction design in social outreach campaigns", Kybernetes, Vol. 45 Iss: 8, pp.1243 - 1256
+
 ##### License
 This is licensed under the Apache License Version 2.0.
