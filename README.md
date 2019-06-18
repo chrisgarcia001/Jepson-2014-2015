@@ -35,7 +35,7 @@ who are more similar.
 In many cases the users nearer to a specific user should carry more weight in determining how to design
 an interaction than those further away. A weighting function can be used to weight the choice of 
 different interaction attributes in proportion to the similarity. A weighting function simply takes a
-number as input (presumably a similaity measure) and returns a weight.
+number as input (presumably a similarity measure) and returns a weight.
 
 ##### Example
 Here is a simple example of how to construct and run the algorithm:
